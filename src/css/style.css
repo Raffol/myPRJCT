@@ -7,11 +7,77 @@ body{
     padding: 30px;
     margin: 25px;
 }
+header{
+
+}
 .about__micro{
     color: #8c9aaf;
 }
+
 #my_links li{
     display: flex;
+    flex-direction: row;
     padding: 5px;
     list-style-type: none;
 }
+.github img, .instagram img, .tg img, .spotify img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 15px;
+    margin: 0 0 0 60px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__exp{
+    display: flex;
+    /*margin-left: 30px;*/
+}
+.container__main{
+    display: grid;
+    padding: 0 0 0 50px;
+}
+.stack__exp {
+    display: flex;
+
+}
+.stack__exp-lang {
+    display: flex;
+    list-style-type: none;
+        border: 1px solid #112b3a;
+        border-radius: 10px;
+        background-color: #122d47;
+        color: #56d8ce;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+.exp{
+    display: flex;
+}
+.exp_main{
+    display: grid;
+    padding: 0 0 0 50px;
+}
+.exp__stack{
+    display: flex;
+    list-style-type: none;
+    border: 1px solid #112b3a;
+    border-radius: 10px;
+    background-color: #122d47;
+    color: #56d8ce;
+}
+a{
+    text-decoration: none;
+}
+

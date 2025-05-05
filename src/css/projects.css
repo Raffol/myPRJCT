@@ -1,0 +1,9 @@
+@import url(../css/style.css);
+@import url(../css/about.css);
+
+.stack__exp-lang{
+    border: 1px solid #112b3a;
+    border-radius: 10px;
+    background-color: #122d47;
+    color: #56d8ce;
+}

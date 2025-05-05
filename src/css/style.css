@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    grid-gap: 30px;
+    background: #111e41;
+    color: #d5deee;
+    padding: 30px;
+    margin: 25px;
+}
+.about__micro{
+    color: #8c9aaf;
+}
+#my_links li{
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+}

@@ -5,9 +5,10 @@ export default {
         emptyOutDir: true,
         rollupOptions: {
             input: {
-                index: "./src/experience.html",
-                blog: "./src/index.html",
-                about: "./src/projects.html",
+                index: "./src/index.html",
+                blog: "./src/experience.html",
+                about: "./src/about.html",
+                projects: "./src/projects.html",
             },
         },
     },

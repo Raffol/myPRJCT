@@ -1,3 +1,8 @@
+@import url(projects.css);
+@import url(about.css);
+@import url(experience.css);
+
+
 body{
     display: flex;
     justify-content: center;
@@ -6,9 +11,10 @@ body{
     color: #d5deee;
     padding: 30px;
     margin: 25px;
+    font-size: 20px;
 }
 header{
-
+    width: 304%;
 }
 .about__micro{
     color: #8c9aaf;
@@ -21,8 +27,8 @@ header{
     list-style-type: none;
 }
 .github img, .instagram img, .tg img, .spotify img{
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
     display: flex;
 
 }
@@ -45,6 +51,19 @@ main{
     display: grid;
     padding: 0 0 0 50px;
 }
+#container__buttons{
+    padding: 20% 0 0 20%;
+}
+#container__buttons button{
+    margin: 20px 0 0 0;
+}
+#my_links ul{
+    display: flex;
+    margin-top: 15rem;
+}
+#my_links li{
+    margin: 0 20px 0 0;
+}
 .stack__exp {
     display: flex;
 
@@ -56,8 +75,8 @@ main{
         border-radius: 10px;
         background-color: #122d47;
         color: #56d8ce;
-}
 
+}
 .experience{
     display: flex;
     flex-direction: column;

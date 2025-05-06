@@ -12,9 +12,13 @@ body{
     padding: 30px;
     margin: 25px;
     font-size: 20px;
+    word-break: keep-all;
+
 }
 header{
     width: 304%;
+    word-break: keep-all;
+
 }
 .about__micro{
     color: #8c9aaf;
@@ -32,7 +36,7 @@ header{
     display: flex;
 
 }
-main{
+.indexx{
     display: flex;
     flex-direction: column;
     padding: 0 0 0 15px;

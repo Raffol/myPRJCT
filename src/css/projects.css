@@ -1,12 +1,20 @@
 @import url(../css/style.css);
 @import url(../css/about.css);
-@import url(experience.css);
+@import url(../css/experience.css);
 .stack__exp-lang{
     border: 1px solid #112b3a;
     border-radius: 10px;
     background-color: #122d47;
     color: #56d8ce;
 }
+.projects_p{
+    margin: 0 230px 0 0;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
 /*
 .flexlang{
     display: flex;

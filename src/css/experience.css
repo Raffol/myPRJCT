@@ -2,28 +2,25 @@
 @import url(../css/about.css);
 @import url(../css/projects.css);
 
-.experience_e{
-    margin: 0 230px 0 0;
+.experience_e {
+	margin: 0 230px 0 0;
 }
-.experience{
-    display: flex;
-    flex-direction: column;
+.experience {
+	display: flex;
+	flex-direction: column;
 }
-.exp{
-    display: flex;
+.exp {
+	display: flex;
 }
-.exp_main{
-    display: grid;
-    padding: 0 0 0 50px;
+.exp_main {
+	display: grid;
+	padding: 0 0 0 50px;
 }
-.exp__stack{
-    display: flex;
-    list-style-type: none;
-    border: 1px solid #112b3a;
-    border-radius: 10px;
-    background-color: #122d47;
-    color: #56d8ce;
+.exp__stack {
+	display: flex;
+	gap: 10px;
+	align-items: center;
 }
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }

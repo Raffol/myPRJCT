@@ -1,106 +1,93 @@
-@import url(projects.css);
-@import url(about.css);
-@import url(experience.css);
+@import "projects.css";
+@import "about.css";
+@import "experience.css";
 
-
-body{
-    display: flex;
-    justify-content: center;
-    grid-gap: 30px;
-    background: #111e41;
-    color: #d5deee;
-    padding: 30px;
-    margin: 25px;
-    font-size: 20px;
-    word-break: keep-all;
-
+body {
+	display: flex;
+	justify-content: center;
+	grid-gap: 30px;
+	background: #111e41;
+	color: #d5deee;
+	padding: 30px;
+	margin: 25px;
+	font-size: 20px;
+	word-break: keep-all;
 }
-header{
-    width: 304%;
-    word-break: keep-all;
-
+header {
+	word-break: keep-all;
+	flex: 0 0 50%;
 }
-.about__micro{
-    color: #8c9aaf;
+.about__micro {
+	color: #8c9aaf;
 }
 
-#my_links li{
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    list-style-type: none;
+#my_links li {
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	list-style-type: none;
 }
-.github img, .instagram img, .tg img, .spotify img{
-    height: 70px;
-    width: 70px;
-    display: flex;
+.github img,
+.instagram img,
+.tg img,
+.spotify img {
+	height: 70px;
+	width: 70px;
+	display: flex;
+}
+.wrapper {
+	display: flex;
+	gap: 20px;
+}
+.indexx {
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
 
+	flex: 0 0 50%;
 }
-.indexx{
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 0 15px;
-    margin: 0 0 0 60px;
-}
-.projects{
-    display: flex;
-    flex-direction: column;
+.projects {
+	display: flex;
+	flex-direction: column;
 }
 
-.container__exp{
-    display: flex;
-    /*margin-left: 30px;*/
+.container__exp {
+	display: flex;
+	/*margin-left: 30px;*/
 }
-.container__main{
-    display: grid;
-    padding: 0 0 0 50px;
+.container__main {
+	display: grid;
+	padding: 0 0 0 50px;
 }
-#container__buttons{
-    padding: 20% 0 0 20%;
+#container__buttons {
+	padding: 20% 0 0 20%;
 }
-#container__buttons button{
-    margin: 20px 0 0 0;
+#container__buttons button {
+	margin: 20px 0 0 0;
 }
-#my_links ul{
-    display: flex;
-    margin-top: 15rem;
+#my_links ul {
+	display: flex;
+	margin-top: 15rem;
 }
-#my_links li{
-    margin: 0 20px 0 0;
+#my_links li {
+	margin: 0 20px 0 0;
 }
 .stack__exp {
-    display: flex;
-
-}
-.stack__exp-lang {
-    display: flex;
-    list-style-type: none;
-        border: 1px solid #112b3a;
-        border-radius: 10px;
-        background-color: #122d47;
-        color: #56d8ce;
-
-}
-.experience{
-    display: flex;
-    flex-direction: column;
-}
-.exp{
-    display: flex;
-}
-.exp_main{
-    display: grid;
-    padding: 0 0 0 50px;
-}
-.exp__stack{
-    display: flex;
-    list-style-type: none;
-    border: 1px solid #112b3a;
-    border-radius: 10px;
-    background-color: #122d47;
-    color: #56d8ce;
-}
-a{
-    text-decoration: none;
+	display: flex;
 }
 
+.experience {
+	display: flex;
+	flex-direction: column;
+}
+.exp {
+	display: flex;
+}
+.exp_main {
+	display: grid;
+	padding: 0 0 0 50px;
+}
+
+a {
+	text-decoration: none;
+}

@@ -1,18 +1,21 @@
-@import url(../css/style.css);
-@import url(../css/about.css);
-@import url(../css/experience.css);
-.stack__exp-lang{
-    border: 1px solid #112b3a;
-    border-radius: 10px;
-    background-color: #122d47;
-    color: #56d8ce;
+@import "../css/style.css";
+@import "../css/about.css";
+@import "../css/experience.css";
+.stack__exp-lang {
+	border: 1px solid #112b3a;
+	border-radius: 16px;
+	background-color: #122d47;
+	color: #56d8ce;
+	padding: 6px 14px;
+
+	list-style-type: none;
 }
-.projects_p{
-    margin: 0 230px 0 0;
+.projects_p {
+	margin: 0 230px 0 0;
 }
-.projects{
-    display: flex;
-    flex-direction: column;
+.projects {
+	display: flex;
+	flex-direction: column;
 }
 
 /*

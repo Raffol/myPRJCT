@@ -27,6 +27,11 @@ header {
 	padding: 5px;
 	list-style-type: none;
 }
+#about__b, #experience__b, #projects__b{
+
+	color: #8c9aaf;
+}
+
 .github img,
 .instagram img,
 .tg img,
@@ -53,7 +58,12 @@ header {
 
 .container__exp {
 	display: flex;
+	transition: 0.5s;
 	/*margin-left: 30px;*/
+}
+.container__exp:hover, .year:hover{
+	background-color: #374452;
+	border-radius: 20px;
 }
 .container__main {
 	display: grid;
@@ -79,6 +89,11 @@ header {
 .experience {
 	display: flex;
 	flex-direction: column;
+	transition: 0.5s;
+}
+.exp:hover, .exp__date:hover{
+	background-color: #374452;
+	border-radius: 20px;
 }
 .exp {
 	display: flex;

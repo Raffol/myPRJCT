@@ -7,15 +7,18 @@
 	background-color: #122d47;
 	color: #56d8ce;
 	padding: 6px 14px;
-
 	list-style-type: none;
 }
 .projects_p {
-	margin: 0 230px 0 0;
+	display: flex;
 }
 .projects {
 	display: flex;
 	flex-direction: column;
+}
+.stack__exp ul{
+	display: flex;
+	gap: 15px;
 }
 
 /*

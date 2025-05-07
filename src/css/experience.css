@@ -18,8 +18,12 @@
 }
 .exp__stack {
 	display: flex;
+	list-style-type: none;
 	gap: 10px;
-	align-items: center;
+	/*align-items: center;*/
+	/*background-color: #122d47;*/
+	/*color: #56d8ce;*/
+
 }
 a {
 	text-decoration: none;

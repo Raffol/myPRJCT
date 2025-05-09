@@ -1,6 +1,6 @@
-@import url(../css/style.css);
-@import url(../css/about.css);
-@import url(../css/projects.css);
+@import "../css/style.css";
+@import "../css/about.css";
+@import "../css/projects.css";
 
 .experience_e {
 	margin: 0 230px 0 0;

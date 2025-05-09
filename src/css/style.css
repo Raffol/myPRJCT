@@ -3,19 +3,27 @@
 @import "experience.css";
 
 body {
+	max-width: 900px;
+	margin: 0 auto;
+	font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-feature-settings: "ss03","cv02","cv11";
 	display: flex;
 	justify-content: center;
 	grid-gap: 30px;
 	background: #111e41;
 	color: #d5deee;
 	padding: 30px;
-	margin: 25px;
+	/*margin: 25px;*/
 	font-size: 20px;
 	word-break: keep-all;
+
 }
 header {
 	word-break: keep-all;
 	flex: 0 0 50%;
+}
+footer{
+	margin-top: 30px;
 }
 .about__micro {
 	color: #8c9aaf;
@@ -29,7 +37,7 @@ header {
 }
 #about__b, #experience__b, #projects__b{
 
-	color: #8c9aaf;
+	color: #e5e7eb;
 }
 
 .github img,
@@ -58,7 +66,8 @@ header {
 
 .container__exp {
 	display: flex;
-	transition: 0.5s;
+	transition: 300ms;
+	padding: 10px;
 	/*margin-left: 30px;*/
 }
 .container__exp:hover, .year:hover{
@@ -89,7 +98,8 @@ header {
 .experience {
 	display: flex;
 	flex-direction: column;
-	transition: 0.5s;
+	transition: 300ms;
+	padding: 10px;
 }
 .exp:hover, .exp__date:hover{
 	background-color: #374452;

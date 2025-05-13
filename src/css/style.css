@@ -39,7 +39,10 @@ footer{
 
 	color: #e5e7eb;
 }
-
+#home{
+	height: 70px;
+	width: 70px;
+}
 .github img,
 .instagram img,
 .tg img,

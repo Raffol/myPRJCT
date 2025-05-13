@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 @import "projects.css";
 @import "about.css";
 @import "experience.css";
 
 body {
-	max-width: 900px;
 	margin: 0 auto;
-	font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-	font-feature-settings: "ss03","cv02","cv11";
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+	font-feature-settings: "ss03", "cv02", "cv11";
 	display: flex;
 	justify-content: center;
 	grid-gap: 30px;
@@ -16,17 +20,28 @@ body {
 	/*margin: 25px;*/
 	font-size: 20px;
 	word-break: keep-all;
-
 }
 header {
 	word-break: keep-all;
 	flex: 0 0 50%;
+	position: sticky;
+	left: 0;
+	top: 0;
+	max-height: 100vh;
 }
-footer{
+.about__briefly {
+}
+footer {
 	margin-top: 30px;
 }
 .about__micro {
 	color: #8c9aaf;
+}
+button {
+	background-color: transparent;
+	padding: 0;
+	outline: none;
+	border: 0;
 }
 
 #my_links li {
@@ -35,14 +50,12 @@ footer{
 	padding: 5px;
 	list-style-type: none;
 }
-#about__b, #experience__b, #projects__b{
-
+#about__b,
+#experience__b,
+#projects__b {
 	color: #e5e7eb;
 }
-#home{
-	height: 70px;
-	width: 70px;
-}
+
 .github img,
 .instagram img,
 .tg img,
@@ -73,7 +86,8 @@ footer{
 	padding: 10px;
 	/*margin-left: 30px;*/
 }
-.container__exp:hover, .year:hover{
+.container__exp:hover,
+.year:hover {
 	background-color: #374452;
 	border-radius: 20px;
 }
@@ -81,12 +95,7 @@ footer{
 	display: grid;
 	padding: 0 0 0 50px;
 }
-#container__buttons {
-	padding: 20% 0 0 20%;
-}
-#container__buttons button {
-	margin: 20px 0 0 0;
-}
+
 #my_links ul {
 	display: flex;
 	margin-top: 15rem;
@@ -104,7 +113,8 @@ footer{
 	transition: 300ms;
 	padding: 10px;
 }
-.exp:hover, .exp__date:hover{
+.exp:hover,
+.exp__date:hover {
 	background-color: #374452;
 	border-radius: 20px;
 }
@@ -118,4 +128,62 @@ footer{
 
 a {
 	text-decoration: none;
+}
+
+.home-button {
+	padding: 6px;
+}
+.home-button img {
+	width: 16px;
+	height: 16px;
+}
+
+.nav-button {
+	color: rgb(226 232 240/1);
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.7px;
+	padding: 1rem 0;
+	position: relative;
+	padding-left: 70px;
+	transition: all 0.1s ease;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.nav-button:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 50px;
+	height: 1px;
+	background-color: #fff;
+	transition: all 0.1s ease;
+}
+
+.nav-button:hover {
+	padding-left: 90px;
+	opacity: 1;
+}
+
+.nav-button:hover:before {
+	width: 70px;
+}
+
+.nav-button.active {
+	padding-left: 90px;
+	opacity: 1;
+}
+.nav-button.active:before {
+	width: 70px;
+}
+
+.container {
+	max-width: 900px;
+	padding: 0 15px;
+	margin: 0 auto;
 }

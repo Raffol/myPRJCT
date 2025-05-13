@@ -1,0 +1,142 @@
+	2
+				<div class="projects">
+					<div class="container__exp">
+						<div class="years">
+							<p>2022-2023</p>
+						</div>
+						<div class="container__main">
+							<div class="name__company">
+								<h3>Lorem ipsum dolor.</h3>
+							</div>
+							<div class="header__exp">
+								<p>Fullstack Engineer</p>
+							</div>
+							<div class="about__exp">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+									Dolorum pariatur <br />
+									quo reiciendis veniam. Alias aut dolorum ipsum iste similique
+									vel.
+								</p>
+								<br />
+							</div>
+							<div>
+								<ul class="exp__stack">
+									<li class="stack__exp-lang">PHP</li>
+									<li class="stack__exp-lang">React</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--3-->
+					<div class="projects">
+						<div class="container__exp">
+							<div class="years">
+								<p>2022-2023</p>
+							</div>
+							<div class="container__main">
+								<div class="name__company">
+									<h3>Lorem ipsum dolor.</h3>
+								</div>
+								<div class="header__exp">
+									<p>Backend Engineer</p>
+								</div>
+								<div class="about__exp">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Dolorum pariatur <br />
+										quo reiciendis veniam. Alias aut dolorum ipsum iste
+										similique vel.
+									</p>
+									<br />
+								</div>
+								<div class="">
+									<ul class="exp__stack">
+										<li class="stack__exp-lang">PHP</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="career">
+							<h2>My Career</h2>
+						</div>
+						<!--1-->
+						<div class="experience">
+							<div class="exp">
+								<div class="exp__date">
+									<p>2023-2024</p>
+								</div>
+								<div class="exp_main">
+									<div class="exp__h2">
+										<h3>Academy TOP</h3>
+									</div>
+									<div class="exp__stack">
+										<p>Engineer</p>
+									</div>
+									<div class="exp__about">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											Accusamus, alias asperiores assumenda atque <br />
+											consequatur culpa earum harum illum impedit incidunt
+											laboriosam, omnis optio praesentium repellat <br />
+											repellendus reprehenderit, suscipit temporibus vel.<br />
+										</p>
+									</div>
+									<ul class="exp__stack">
+										<li class="stack__exp-lang">JavaScript</li>
+										<li class="stack__exp-lang">PHP</li>
+										<li class="stack__exp-lang">React</li>
+										<li class="stack__exp-lang">Git</li>
+									</ul>
+								</div>
+							</div>
+							<!--        2-->
+							<div class="exp">
+								<div class="exp__date">
+									<p>2024</p>
+								</div>
+								<div class="exp_main">
+									<div class="exp__h2">
+										<h3>Revival</h3>
+									</div>
+									<ul class="exp__stack">
+										<li class="stack__exp-lang">PHP</li>
+										<li class="stack__exp-lang">JavaScript</li>
+										<li class="stack__exp-lang">Laravel</li>
+									</ul>
+									<div class="exp__about">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											<br />
+											Aliquam, aliquid!
+										</p>
+									</div>
+								</div>
+							</div>
+							<!--3-->
+							<div class="exp">
+								<div class="exp__date">
+									<p>2024</p>
+								</div>
+								<div class="exp_main">
+									<div class="exp__h2">
+										<h3>Messanger</h3>
+									</div>
+									<ul class="exp__stack">
+										<li class="stack__exp-lang">React</li>
+										<li class="stack__exp-lang">JavaScript</li>
+									</ul>
+									<div class="exp__about">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+											Eligendi fugit magnam maiores nesciunt <br />
+											perspiciatis praesentium provident, qui! Aperiam,
+											consequuntur dolor exercitationem ipsam tempora <br />
+											tenetur veniam.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>

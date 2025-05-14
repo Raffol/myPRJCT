@@ -1,9 +1,3 @@
 @import "../css/style.css";
 @import "../css/projects.css";
 @import "../css/experience.css";
-
-.about__block {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-}
